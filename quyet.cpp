@@ -40,5 +40,7 @@ int main(){
         printf("Phuong trinh da cho co hai nghiem phan biet\nx1=%.4f \nx2=%.4f",x1,x2);
     }
 }
+
+   
    
 
