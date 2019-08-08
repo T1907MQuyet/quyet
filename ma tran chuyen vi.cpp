@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main (){
- int ar[4][3],temp;
+ int ar[4][3], ra[3][4];
  	for(int i=0;i<4;i++)
 	{
 		for (int j=0;j<3;j++)
@@ -9,25 +9,22 @@ int main (){
      	scanf("%d",&ar[i][j]);
      	}
     } 
-	  for(int i=1;i<4;i++)
+	  for(int i=1;i<3;i++)
 	   {
-      for (int j = 0;j < 3;j++) 
+      for (int j = 0;j < 4;j++) 
 	  {
-         temp = ar[i][j];
-         ar[i][j] = ar[j][i];
-         ar[j][i] = temp;
+          ra[3][4]= ar[4][3]
       }
    }
-
-   printf("\nMa tran chuyen vi cua ma tran da cho la:\n");
-   for (int i = 0; i <4; i++) 
+ for (int i = 0; i <4; i++) 
    {
-      printf("\n");
+      
       for (int j = 0; j < 3; j++) 
 	  {
-         printf("%d\t", ar[i][j]);
+         printf("%3d",ra[i][j]);
       }
    }
+  
 
    return (0);
 }

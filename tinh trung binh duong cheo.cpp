@@ -9,26 +9,25 @@ int main (){
      	scanf("%d",&ar[i][j]);
      	}
     }
-    
+    int total=0 ;
     for (int i=0;i<4;i++)
     {   
     	for (int j=0;j<4;j++)
     	{
-    	printf ("%5d",ar[i][j]);
+    	if (i==j){
+    	 total+=[i][j];
+    	}
     	}
     	}
     	
-
-	int tb=0 ;
-	{
-	tb=(ar[0][0])+(ar[1][1])+(ar[2][2])+(ar[3][3])+(ar[4][4])/4;
     	
-    	printf ("so trung binh duong  cheo la =\n",tb);
+    	printf ("trung binh=\n",(float)total/4);
     }
     	
     	
 	return 0;
 	
        }
+       ]
        
 	

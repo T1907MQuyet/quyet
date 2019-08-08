@@ -1,26 +1,23 @@
 #include <stdio.h>
 
 int main (){
-	int n[10],i;
+	int n[10]
+
+    int sum=0;
+    int i;
+    for (i=0 ;i<10;i++){
+    printf("nhap so nguyen n [%d]:",i);
+    scanf("%d",&n[i]);
 	
-     for (i = 0; i < 10; i++); 
-{
-    printf("Nhap a[%d] = ", i);
-    scanf("%d", &n[i]);
-}
-    int sum, avg;
-
-	printf ("tim gia tri trung binh cua mang:\n");
-
-	for(int i=0 ; i<10;i++);
-	{
+	 sum +=n[i];
     
-	avg =(float)sum/10 ;
-	printf("gia tri trung binh cua mang la : %2f ",avg);
+	}
+	
+	printf("=>gia tri trung binh cua mang la : %d ",sum/10 );
 	
 	return 0 ;
 	
 	}
-	}
+	
 	
     
