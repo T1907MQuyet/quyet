@@ -23,8 +23,7 @@ int main(){
     int a[1000];
     int n;
     printf("Nhap n:\n ",n);
-    printf("max=\n",a);
+    printf("max=\n",a[n]);
     return 0;
 }
-
 
