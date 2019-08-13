@@ -25,8 +25,8 @@ int main (){
          printf("%3d",ra[i][j]);
       }
    }
- }
- } 
+ 
+  
  
    return (0);
 }
