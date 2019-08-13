@@ -15,11 +15,12 @@ int main(){
 			
 		}
 		if (kq ==i){{
-		printf ("%d la so thuan nghich \n",i);
+		printf ("%d la so thuan nghich \n",n)
 		
 		  }
 		}
 	return 0 ;
+}
 }
 	
 

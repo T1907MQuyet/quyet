@@ -14,8 +14,9 @@ int main (){
       for (int j = 0;j < 4;j++) 
 	  {
           ra[3][4]= ar[4][3]
-      }
-   }
+      
+      
+   
  for (int i = 0; i <4; i++) 
    {
       
@@ -24,8 +25,9 @@ int main (){
          printf("%3d",ra[i][j]);
       }
    }
-  
-
+ }
+ } 
+ 
    return (0);
 }
 
