@@ -1,0 +1,37 @@
+h1 {
+    color: #333333;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+}
+p{
+    margin-left: auto; /*Căn lề trái đoạn văn bẳn*/
+    margin-right: auto; /*Căn lề phải đoạn văn bẳn*/
+    width: 500px; /*Giới hạn độ rộng*/
+    /* color: brown;
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px; /* Độ cao của dòng text (Khoảng cách giữa các text trên và dưới) */
+    text-decoration: none;
+    font-family: Arial, Arial,Helvetica,sans-seri
+    font-size: 12px;
+    line-height: 1.6;
+    font-weight:17px ;
+    color:-internal-root-color; ;
+
+}
+img {
+
+    margin-left: auto; /*Căn lề trái đoạn văn bẳn*/
+    margin-right: auto; /*Căn lề phải đoạn văn bẳn*/
+    /*width: 500px;*/
+    height: auto;
+    max-width: 500px; /*Giới hạn kích cỡ*/
+
+}
